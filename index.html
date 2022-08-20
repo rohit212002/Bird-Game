@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<link rel="stylesheet" href="style.css">
+<!-- <link rel="stylesheet" href="/celebration.css"> -->
+
+<head>
+
+</head>
+
+<body>
+
+    <h1 id="Game_ka_naam" class="game_name">Birds Game</h1>
+    <hr class="underline">
+    <br>
+
+
+    <span id="movesOne" class="moves1">
+        <h3>Moves</h3>
+        <p id="moves_of_1"></p>
+    </span>
+
+
+
+
+
+
+    <div id="bda_div" class="main">
+
+        <div class="for_images">
+
+            <div id="one">
+                <span class="birds" id="1">
+                    <img class="b1" src="/images/1.jpg" alt="Birds 1">
+                </span>
+
+                <span class="birds" id="2">
+                    <img class="b2" src="/images/2.jpg" alt="Birds 2">
+                </span>
+
+                <span class="birds" id="3">
+                    <img class="b3" src="/images/3.jpg" alt="Birds 3">
+                </span>
+
+            </div>
+
+            <br>
+
+            <div id="two">
+                <span class="birds" id="4">
+                    <img class="b1" src="/images/1.jpg" alt="Birds 1">
+                </span>
+
+                <span class="birds" id="5">
+                    <img class="b2" src="/images/2.jpg" alt="Birds 2">
+
+                </span>
+
+
+                <span class="birds" id="6">
+                    <img class="b3" src="/images/3.jpg" alt="Birds 3">
+                </span>
+
+            </div>
+            <br>
+
+            <div id="three">
+                <span class="birds" id="7">
+                    <img class="b1" src="/images/1.jpg" alt="Birds 1">
+                </span>
+
+                <span class="birds" id="8">
+                    <img class="b2" src="/images/2.jpg" alt="Birds 2">
+                </span>
+
+
+                <span class="birds" id="9">
+
+                    <img class="b3" src="/images/3.jpg" alt="Birds 3">
+
+                </span>
+
+            </div>
+            <br>
+
+            <div id="four">
+                <span class="dashes" id="10">
+                    <img class="d1" src="/images/dash1.jpg" alt="dash1">
+                </span>
+
+
+                <span class="dashes" id="11">
+                    <img class="d1" src="/images/dash2.jpg" alt="dash2">
+                </span>
+
+                <span class="dashes" id="12">
+                    <img class="d1" src="/images/dash3.jpg" alt="dash3">
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+
+        <div class="inputing">
+            <span class="inputs" id="to_pick">
+                <input id="bird1" type="number" placeholder="Choose Bird">
+            </span>
+
+            <span class="inputs" id="to_put">
+                <input id="dash1" type="number" placeholder="Choose Dash">
+            </span>
+
+            <input id="btn" type="button" value="submit">
+
+        </div>
+    </div>
+
+    <div id="instruction">
+        <p></p>
+    </div>
+
+    <span class="BackBtn">
+        <button id="rewinding" class="rewind">Back</button>
+
+    </span>
+    <div class="main_button">
+        <button id="main_btn">start</button>
+    </div>
+
+
+
+    <div class="celebration">
+
+
+
+
+        <h2 class="you_won">Level</h2>
+        <br>
+        <h3 class="you_won">Completed In <p id="your_moves"></p> Moves</h3>
+
+
+
+    </div>
+
+</body>
+
+<script src="/brain.js"></script>
+<script src="/random_arrangement.js"></script>
+<script src="/did_won.js"></script>
+
+
+
+</html>

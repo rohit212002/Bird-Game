@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    animation-name: chota;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(115, 109, 109));
+}
+
+.celebration {
+
+    animation-delay: -3s;
+    animation-name: bda;
+    animation-duration: 4.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.rewind {
+
+    display: none;
+
+}
+
+.inputing {
+    display: none;
+}
+
+@keyframes chota {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+
+    }
+}
+
+@keyframes bda {
+    0% {
+        transform: rotateZ(360deg) scale(-9);
+        opacity: 0;
+    }
+
+
+    60% {
+        transform: rotateZ(180deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg) scale(1);
+        opacity: 1;
+    }
+}
